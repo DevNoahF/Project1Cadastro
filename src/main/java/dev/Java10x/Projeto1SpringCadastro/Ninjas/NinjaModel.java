@@ -11,9 +11,9 @@ public class NinjaModel {
     @Id // Indica que é a chave primária da tabela do banco de dados (DB)
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Gera um valor automaticamente (passa o jeito que vc quer que gere o ID)
     Long id;
-    String nome;
-    String email;
-    int idade;
+    private String nome;
+    private String email;
+    private int idade;
 
     public NinjaModel() {
     }
