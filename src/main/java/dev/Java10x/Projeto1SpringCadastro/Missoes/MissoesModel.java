@@ -3,6 +3,8 @@ package dev.Java10x.Projeto1SpringCadastro.Missoes;
 import dev.Java10x.Projeto1SpringCadastro.Ninjas.NinjaModel;
 import jakarta.persistence.*;
 
+import java.util.List;
+
 
 @Entity
 @Table(name = "tb_missoes")
@@ -13,7 +15,9 @@ public class MissoesModel {
     private Long id;
     private String nome;
     private String dificuldade;
-    private NinjaModel ninja;
+
+    @OneToMany (mappedBy = "missoes") // Uma missão tem vários ninjas
+    private List<NinjaModel> ninja;
 
     public MissoesModel() {
     }

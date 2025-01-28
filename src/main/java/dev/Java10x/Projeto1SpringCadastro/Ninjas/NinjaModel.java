@@ -17,7 +17,10 @@ public class NinjaModel {
     private String nome;
     private String email;
     private int idade;
-    private List<MissoesModel> missoes;
+
+    @ManyToOne // Um ninja tem apenas uma missao
+    @JoinColumn(name = "missoes_id") // (foreing key = chave estrangeira) Nome da coluna que vai ser criada na tabela do banco de dados (DB)
+    private MissoesModel missoes;
 
     public NinjaModel() {
     }
