@@ -1,5 +1,8 @@
-package dev.Java10x.Projeto1SpringCadastro;
+package dev.Java10x.Projeto1SpringCadastro.Ninjas;
+import dev.Java10x.Projeto1SpringCadastro.Missoes.MissoesModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 // Entity ele transforma uma classe em uma entidade do banco de dados (DB)
 // JPA -> Java Persistence API
@@ -10,10 +13,11 @@ public class NinjaModel {
     // Id é a chave primária
     @Id // Indica que é a chave primária da tabela do banco de dados (DB)
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Gera um valor automaticamente (passa o jeito que vc quer que gere o ID)
-    Long id;
+    private Long id;
     private String nome;
     private String email;
     private int idade;
+    private List<MissoesModel> missoes;
 
     public NinjaModel() {
     }
