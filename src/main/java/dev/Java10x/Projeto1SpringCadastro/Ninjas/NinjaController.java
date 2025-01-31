@@ -1,4 +1,4 @@
-package dev.Java10x.Projeto1SpringCadastro;
+package dev.Java10x.Projeto1SpringCadastro.Ninjas;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

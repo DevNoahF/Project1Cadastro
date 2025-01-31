@@ -1,4 +1,5 @@
-package dev.Java10x.Projeto1SpringCadastro;
+package dev.Java10x.Projeto1SpringCadastro.Ninjas;
+import dev.Java10x.Projeto1SpringCadastro.Missoes.MissoesModel;
 import jakarta.persistence.*;
 
 // Entity ele transforma uma classe em uma entidade do banco de dados (DB)
@@ -6,6 +7,9 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "tb_cadastro")
 public class NinjaModel {
+
+    // OneToOne -> Um para um
+    // OneToMany -> Um para muitos
 
     // Id é a chave primária
     @Id // Indica que é a chave primária da tabela do banco de dados (DB)
@@ -15,6 +19,10 @@ public class NinjaModel {
     String email;
     int idade;
 
+    @ManyToOne// Muitos ninjas para uma missão
+    @JoinColumn(name = "missoes_id") // Indica que é uma chave estrangeira, é pra ser utilizada sempre que usar o MANYTOONE
+    private MissoesModel missoes;
+
     public NinjaModel() {
     }
 
@@ -23,6 +31,7 @@ public class NinjaModel {
         this.email = email;
         this.idade = idade;
     }
+
 
     public String getNome() {
         return nome;
