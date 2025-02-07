@@ -20,9 +20,17 @@ public class NinjaModel {
     // Id é a chave primária
     @Id // Indica que é a chave primária da tabela do banco de dados (DB)
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Gera um valor automaticamente (passa o jeito que vc quer que gere o ID)
+
+    @Column(name = "id") // Indica que é uma coluna no banco de dados (DB)
     Long id;
+
+    @Column(name = "nome")
     String nome;
+
+    @Column (unique = true) // Indica que o email é único
     String email;
+
+    @Column(name = "idade")
     int idade;
 
     @ManyToOne// Muitos ninjas para uma missão
