@@ -30,6 +30,9 @@ public class NinjaModel {
     @Column (unique = true) // Indica que o email é único
     String email;
 
+    @Column (name = "img_url");
+    String imgUrl;
+
     @Column(name = "idade")
     int idade;
 
