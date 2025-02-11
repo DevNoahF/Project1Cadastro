@@ -22,19 +22,19 @@ public class NinjaModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Gera um valor automaticamente (passa o jeito que vc quer que gere o ID)
 
     @Column(name = "id") // Indica que é uma coluna no banco de dados (DB)
-    Long id;
+    private Long id;
 
     @Column(name = "nome")
-    String nome;
+    private String nome;
 
     @Column (unique = true) // Indica que o email é único
-    String email;
+    private String email;
 
-    @Column (name = "img_url");
-    String imgUrl;
+    @Column (name = "img_url")
+    private String imgUrl;
 
     @Column(name = "idade")
-    int idade;
+    private int idade;
 
     @ManyToOne// Muitos ninjas para uma missão
     @JoinColumn(name = "missoes_id") // Indica que é uma chave estrangeira, é pra ser utilizada sempre que usar o MANYTOONE
