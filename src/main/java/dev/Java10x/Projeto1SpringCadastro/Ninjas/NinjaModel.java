@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 // Entity ele transforma uma classe em uma entidade do banco de dados (DB)
 // JPA -> Java Persistence API
@@ -12,6 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor // faz com que seja criado um construtor sem argumentos
 @AllArgsConstructor // faz com que seja criado um cosntrutor com argumentos
 @Data // Cria todos os getters and setters
+@ToString(exclude = "missoes")
 public class NinjaModel {
 
     // OneToOne -> Um para um
