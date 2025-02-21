@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17de84c9-07c2-4b40-b902-3a2b34ccfcdf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,28 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Cadastro.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.Projeto1SpringCadastroApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Noahv/Documents/GitHub/Project1Cadastro",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Cadastro.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Projeto1SpringCadastroApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Noahv/Documents/GitHub/Project1Cadastro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Noahv\Documents\GitHub\Project1Cadastro" />
@@ -71,9 +72,9 @@
   <component name="RunManager" selected="Application.Cadastro">
     <configuration name="Cadastro" type="Application" factoryName="Application">
       <envs>
-        <env name="DATABASE_URL" value="jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;" />
-        <env name="DATABASE_USERNAME" value="cadastro_db" />
         <env name="DATABASE_PASSWORD" value="cadastro_db" />
+        <env name="DATABASE_URL" value="jdbc:h2:file:./data/Cadastrodb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;" />
+        <env name="DATABASE_USERNAME" value="cadastro_db" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="dev.Java10x.Projeto1SpringCadastro.Projeto1SpringCadastroApplication" />
       <module name="Projeto1SpringCadastro" />
@@ -176,7 +177,12 @@
       <workItem from="1739243249476" duration="166000" />
       <workItem from="1739359470763" duration="312000" />
       <workItem from="1739359790037" duration="1396000" />
-      <workItem from="1739361203622" duration="2069000" />
+      <workItem from="1739361203622" duration="2441000" />
+      <workItem from="1739792447586" duration="1521000" />
+      <workItem from="1739889698072" duration="1369000" />
+      <workItem from="1740060456601" duration="688000" />
+      <workItem from="1740090555650" duration="601000" />
+      <workItem from="1740135714039" duration="906000" />
     </task>
     <servers />
   </component>
