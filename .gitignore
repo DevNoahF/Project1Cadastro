@@ -11,4 +11,7 @@ node_modules/
 /dataSources.local.xml
 # sensive datas
 .env
+# db
+/data
+
 
