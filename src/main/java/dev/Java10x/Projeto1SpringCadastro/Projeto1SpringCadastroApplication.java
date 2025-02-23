@@ -9,4 +9,5 @@ public class Projeto1SpringCadastroApplication{
 		SpringApplication.run(Projeto1SpringCadastroApplication.class, args);
 	}
 
+
 }
