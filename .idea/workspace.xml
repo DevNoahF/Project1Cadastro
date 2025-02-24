@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17de84c9-07c2-4b40-b902-3a2b34ccfcdf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migrations/V2__Add_rank_tb_cadastro.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +185,11 @@
       <workItem from="1739889698072" duration="1369000" />
       <workItem from="1740060456601" duration="688000" />
       <workItem from="1740090555650" duration="601000" />
-      <workItem from="1740135714039" duration="906000" />
+      <workItem from="1740135714039" duration="3313000" />
+      <workItem from="1740155106581" duration="5363000" />
+      <workItem from="1740185207580" duration="4364000" />
+      <workItem from="1740340159360" duration="1470000" />
+      <workItem from="1740414403490" duration="1031000" />
     </task>
     <servers />
   </component>
