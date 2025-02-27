@@ -1,5 +1,6 @@
 package dev.Java10x.Projeto1SpringCadastro.Missoes;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import dev.Java10x.Projeto1SpringCadastro.Ninjas.NinjaModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -23,5 +24,7 @@ public class MissoesModel {
 
     //todo: Sempre que utilizamos ONETOMANY precizamos marcar o MAPPEDBY para indicar que a chave estrangeira está na outra tabela
     @OneToMany(mappedBy = "missoes") // Uma missão para muitos ninjas
+
+    @JsonIgnore // faz com que nao caia em um loop de serialização na hora de mostrar o arquivo .json
     private List<NinjaModel> ninjas;
 }

@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17de84c9-07c2-4b40-b902-3a2b34ccfcdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migrations/V2__Add_rank_tb_cadastro.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Missoes/MissoesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Missoes/MissoesModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Missoes/MissoesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Missoes/MissoesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Missoes/MissoesModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Missoes/MissoesModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +193,11 @@
       <workItem from="1740155106581" duration="5363000" />
       <workItem from="1740185207580" duration="4364000" />
       <workItem from="1740340159360" duration="1470000" />
-      <workItem from="1740414403490" duration="1031000" />
+      <workItem from="1740414403490" duration="2374000" />
+      <workItem from="1740437353713" duration="3605000" />
+      <workItem from="1740523569109" duration="2096000" />
+      <workItem from="1740528004124" duration="1955000" />
+      <workItem from="1740694895390" duration="2321000" />
     </task>
     <servers />
   </component>

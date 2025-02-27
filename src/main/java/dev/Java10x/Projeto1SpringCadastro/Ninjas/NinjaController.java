@@ -1,12 +1,22 @@
 package dev.Java10x.Projeto1SpringCadastro.Ninjas;
 
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
-@RequestMapping
+import java.util.List;
+
+@RestController // fala que isso é um controller
+@RequestMapping("/ninjas")
 public class NinjaController {
 
-        @GetMapping("/boa")
+
+    private NinjaService ninjaService; // para a utiização do rest, precisamos fazer injeção de dependencias, assim podendo utilizar metodos do ninjaService
+
+    public NinjaController(NinjaService ninjaService) { // sempre que inserir a dependencia criar um construtor junto
+        this.ninjaService = ninjaService;
+    }
+
+    @GetMapping("/boa")
         @ResponseBody
         public String boasVindas(){
             return "Bem vindo ao sistema de cadastro de clientes!";
@@ -22,13 +32,13 @@ public class NinjaController {
     }
 
     // mostrar todos os ninjas (READ)
-    @GetMapping("/todos")
-    public String mostrarTodosNinjas(){
-            return "Ninjas criadas!";
+    @GetMapping("/listar")
+    public List<NinjaModel> listarNinjas(){
+        return ninjaService.listarNinjas();
     }
 
     // mostrar ninjas por ID (READ)
-    @GetMapping("/TodosID")
+    @GetMapping("/listarID")
     public String mostrarTodosNinjasId(){
             return "Mostrar Ninja por ID!";
     }
