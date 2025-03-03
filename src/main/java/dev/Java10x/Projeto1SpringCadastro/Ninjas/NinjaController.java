@@ -1,6 +1,5 @@
 package dev.Java10x.Projeto1SpringCadastro.Ninjas;
 
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -42,14 +41,19 @@ public class NinjaController {
     public NinjaModel listarNinjasId(@PathVariable Long id){
             return ninjaService.listarNinjasId(id);
     }
+
+
     //alterar dados do ninja(UPDATE)
     @PutMapping("/alterarID") // put esta modificando algo ja enviado
     public String alterarNinja(){
             return "Ninja alterado com sucesso!";
     }
+
+
     // deletar ninja(DELETE)
-    @DeleteMapping("/deletarID") // delete é deletar algo do banco de dados
-    public String deletarNinja(){
-            return "Ninja deletado com sucesso!";
+    // DELETE FROM TB_CADASTRO WHERE id=3
+    @DeleteMapping("/deletar/{id}") // delete é deletar algo do banco de dados
+    public void deletarNinja(@PathVariable Long id){
+            ninjaService.deletarNinjaID(id);
     }
 }
