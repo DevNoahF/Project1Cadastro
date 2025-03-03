@@ -26,29 +26,29 @@ public class NinjaController {
         // CRUD
 
     // adicionar ninja (CREATE)
-    @PostMapping("/criar")
-    public String criarNija(){
-            return "Ninja criado com sucesso!";
+    @PostMapping("/criar") // post manda para o banco de dados
+    public NinjaModel criarNinja(@RequestBody NinjaModel ninja){ // RequestBody faz com que ele mande no corpo da requisição ele vai mandar um json e pegamos e mandamos para o banco de dados
+            return ninjaService.criarNinja(ninja);
     }
 
     // mostrar todos os ninjas (READ)
-    @GetMapping("/listar")
+    @GetMapping("/listar") // get esta mostrando
     public List<NinjaModel> listarNinjas(){
         return ninjaService.listarNinjas();
     }
 
     // mostrar ninjas por ID (READ)
-    @GetMapping("/listarID")
-    public String mostrarTodosNinjasId(){
-            return "Mostrar Ninja por ID!";
+    @GetMapping("/listar/{id}") // path variable -> variavel do caminho(path)
+    public NinjaModel listarNinjasId(@PathVariable Long id){
+            return ninjaService.listarNinjasId(id);
     }
     //alterar dados do ninja(UPDATE)
-    @PutMapping("/alterarID")
+    @PutMapping("/alterarID") // put esta modificando algo ja enviado
     public String alterarNinja(){
             return "Ninja alterado com sucesso!";
     }
     // deletar ninja(DELETE)
-    @DeleteMapping("/deletarID")
+    @DeleteMapping("/deletarID") // delete é deletar algo do banco de dados
     public String deletarNinja(){
             return "Ninja deletado com sucesso!";
     }
