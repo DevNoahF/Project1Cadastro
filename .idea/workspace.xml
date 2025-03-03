@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17de84c9-07c2-4b40-b902-3a2b34ccfcdf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/Java10x/Projeto1SpringCadastro/Ninjas/NinjaService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
